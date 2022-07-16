@@ -1,0 +1,54 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+h1{
+    text-align: center;
+}
+
+#clockContainer{
+    position: relative;
+    margin:auto;
+    height:40vw;
+    width:40vw;
+    background: url(clockimg.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 10px;
+    height: 21%;
+    top: 29%;
+    left: 48.1%;
+    opacity: 4.8;
+    /* display: none; */
+    
+}
+
+#minute{
+    width: 6px;
+    height: 30%;
+    top: 21%;
+    left: 48.7%;
+    opacity: 1.8;
+    /* display: none; */
+
+}
+
+#second{
+    background: red;
+    width: 3px;
+    height: 42%;
+    top: 7%;
+    left: 49%;
+    opacity: 0.8;
+    /* display: none; */
+}
